@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    border-bottom: 1px solid green;
+}
+
+.tab {
+    cursor: pointer;
+
+}
+
+.tab.active {
+    background-color: aquamarine;
+
+}
+
+.tab:hover {
+    background-color: pink;
+
+}
